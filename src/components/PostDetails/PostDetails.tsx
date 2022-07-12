@@ -8,7 +8,6 @@ import {
   getComments,
   getCurrentPostIdSelector,
   getCurrentPostSelector,
-  // getPostsSelector,
 } from '../../store/selectors';
 import { getPost, getPostComments } from '../../api/api';
 import { setComments, setPost } from '../../store';
@@ -18,12 +17,8 @@ import { PostEditor } from '../PostEditor';
 export const PostComments: React.FC = () => {
   const dispatch = useDispatch();
   const currentPost = useSelector(getCurrentPostSelector);
-  // const posts = useSelector(getPostsSelector);
   const currentPostId = useSelector(getCurrentPostIdSelector);
   const comments = useSelector(getComments);
-
-  // eslint-disable-next-line no-console
-  console.log(currentPost);
 
   useEffect(() => {
     const loadPostComments = async () => {

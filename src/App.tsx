@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import { useSelector } from 'react-redux';
 import { PostComments } from './components/PostDetails';

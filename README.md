@@ -1,9 +1,12 @@
-# React TypeScript Starter Pack
+# Blog React application
 
-To use this template click `Use this template`
+[DEMO LINK](https://RomekIvantsiv.github.io/Inquire_TestTask/)
 
-### Available Scripts
+### Dependencies
+Node v14.19.1 and higher
+NPM v6.14.4 and higher
 
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+### Installing
+Fork and clone this repository
+Run `npm install` in your terminal
+Run `npm start`

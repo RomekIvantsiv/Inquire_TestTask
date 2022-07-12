@@ -11,9 +11,6 @@ export const PostList: React.FC = () => {
   const posts = useSelector(getPostsSelector);
   const currentPostId = useSelector(getCurrentPostIdSelector);
 
-  // eslint-disable-next-line no-console
-  console.log(posts);
-
   useEffect(() => {
     const loadPostsFromServer = async () => {
       const postsFromServer = await getPosts();

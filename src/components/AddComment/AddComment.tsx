@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { createCommentToPost, getPostComments } from '../../api/api';
-// import { NewComment } from '../../react-app-env.d';
 import { setComments } from '../../store';
 import { getCurrentPostIdSelector } from '../../store/selectors';
 import './AddComments.scss';
