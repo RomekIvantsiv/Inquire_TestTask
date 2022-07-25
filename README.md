@@ -1,11 +1,6 @@
-# Todos React application
+# Blog React application
 
-
-## Functionality:
-* just write a title an input field and press Enter to add new todo
-* remove existing todo clicking x
-* double click on the TODO title makes it editable (`Enter` saves changes `Ecs` cancels editing)
-* you can filter the todos by status (all, completed, active)
+## [DEMO LINK](https://romekivantsiv.github.io/Inquire_TestTask/)
 
 ## Local development
 
