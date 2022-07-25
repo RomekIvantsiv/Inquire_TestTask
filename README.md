@@ -1,7 +1,7 @@
 # Todos React application
 
 
-##Functionality:
+## Functionality:
 * just write a title an input field and press Enter to add new todo
 * remove existing todo clicking x
 * double click on the TODO title makes it editable (`Enter` saves changes `Ecs` cancels editing)
